@@ -50,6 +50,7 @@ html {
     left: 0px;
     right: 0px;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -160,12 +161,12 @@ html {
     font-size: 15px;
 }
 
-
 /* Content */
 #content .content-section {
     margin: 0 auto;
     padding: 86px 16px;
     width: 800px;
+    max-width: 100%;
 }
 
 #content .section-heading,
@@ -478,4 +479,19 @@ html {
 
 .footer-copyright a {
     color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* Mobile Responsive */
+@media (max-width: 740px) {
+    #nav > li {
+        display: block;
+        /* width: 100%; */
+        background-color: #000;
+    }
+
+    .search-button {
+        display: none;
+    }
 }
