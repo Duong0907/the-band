@@ -132,8 +132,8 @@ html {
 }
 
 #slider {
-    /* background: url("/assets/image/Sliders/slider1.jpg") top center / cover no-repeat; */
-    background: url("https://www.w3schools.com/w3images/chicago.jpg") top center / cover no-repeat;
+    background: url("/assets/image/Sliders/slider1.jpg") top center / cover no-repeat;
+    /* background: url("https://www.w3schools.com/w3images/chicago.jpg") top center / cover no-repeat; */
     margin-top: 46.5px;
     padding-top: 50%;
     position: relative;
