@@ -1,6 +1,6 @@
 /* Reset CSS */
 * {
-padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -13,14 +13,13 @@ html {
 /* Common classes */
 .text-white {
     color: #fff !important;
-} 
+}
 
 .text-center {
     text-align: center;
 }
 
 .row {
-    /* width: 100%; */
     padding: 32px 8px;
     margin: 0px -16px;
     display: inline-block;
@@ -28,7 +27,6 @@ html {
 
 .col {
     float: left;
-    /* display: inline-block; */
     padding: 0 8px;
 }
 
@@ -50,7 +48,6 @@ html {
     left: 0px;
     right: 0px;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -94,7 +91,6 @@ html {
     display: block;
 }
 
-
 #nav .subnav li {
     list-style-type: none;
     display: block;
@@ -134,7 +130,6 @@ html {
 
 #slider {
     background: url("/assets/image/Sliders/slider1.jpg") top center / cover no-repeat;
-    /* background: url("https://www.w3schools.com/w3images/chicago.jpg") top center / cover no-repeat; */
     margin-top: 46.5px;
     padding-top: 50%;
     position: relative;
@@ -166,7 +161,7 @@ html {
     margin: 0 auto;
     padding: 86px 16px;
     width: 800px;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 #content .section-heading,
@@ -204,11 +199,10 @@ html {
     border-radius: 4px;
 }
 
+/* Tour section */
 #content .tour-section {
     background-color: #000;
 }
-
-/* Tour section */
 .tour-section .ticket-amount {
     padding-top: 16px;
 }
@@ -298,7 +292,6 @@ html {
     right: 0;
     align-items: center;
     justify-content: center;
-    /* display: flex; */
     display: none;
 }
 
@@ -376,8 +369,7 @@ html {
 
 .modal-content .modal-footer {
     float: right;
-    display: inline-block;
-    right: 0;
+    display: block;
     margin-bottom: 15px;
     font-size: 16px;
 }
@@ -484,14 +476,16 @@ html {
 
 
 /* Mobile Responsive */
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
+    .text-content {
+        margin: 0px !important;
+    }
     #nav > li {
         display: block;
-        /* width: 100%; */
         background-color: #000;
     }
 
     .search-button {
         display: none;
     }
-}
+} */
