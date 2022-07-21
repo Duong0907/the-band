@@ -1,13 +1,10 @@
 /* Mobile Responsive */
 @media (max-width: 740px) {
+    .mobile-full-width {
+        width: 100% !important;
+    }
     #slider .text-content {
         display: none;
-    }
-    /* .text-content {
-        margin: 0px !important;
-    } */
-    #nav {
-        width: 100%;
     }
 
     #nav > li:first-child {
@@ -18,18 +15,14 @@
         display: block;
         background-color: #000;
     }
-    
     .search-button {
         display: none;
-    }   
+    }
 
     .menu-button {
         display: inline-block;
     }
 
-    #band .member-item {
-        width: 100%;
-    }
     #content .member-image {
         margin-bottom: 16px;
     }
@@ -39,22 +32,41 @@
         margin-bottom: 16px;
     }
 
-    #contact .contact-info,
-    #contact .contact-form {
-        width: 100%;
-    }
     #contact .contact-info{
         margin-bottom: 16px;
     }
     #contact .contact-form .name-input,
-    #contact .contact-form .email-input {
-        width: 100%;
+    #contact .contact-form .email-input,
+    #contact .contact-form .massage-input {
         padding: 0;
     }
     #contact .contact-form input {
         margin: 0;
     }
+    .name-input {
+        margin-bottom: 16px;
+    }
     #contact .contact-form .massage-input {
-        padding: 0;
         margin: 8px 0;
     }
+
+    .modal-container {
+        top: -15%;
+        margin: 0 8px;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width: 741px) and (max-width: 1023px) {
+    .modal-container {
+        top: -20%;
+        width: 80%;
+    }
+}
+
+/* Tablet and mobile */
+@media (max-width: 1023PX) {
+    .footer-brand a {
+        width: 40px;
+    }
+}

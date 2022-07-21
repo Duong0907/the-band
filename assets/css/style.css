@@ -90,9 +90,9 @@ html {
     display: block;
 }
 
-#nav li:focus .subnav {
+/* #nav li:focus .subnav {
     display: block;
-}
+} */
 
 #nav .subnav li {
     list-style-type: none;
@@ -330,10 +330,10 @@ html {
 }
 
 .modal-container {
-    background-color: #fff; 
     width: 900px;
-    max-width: cal(100% - 32px);
+    max-width: 100%;
     position: relative;
+    background-color: #fff; 
     animation: modalFadeIn ease 0.5s;
 }
 
@@ -365,7 +365,7 @@ html {
 }
 
 .modal-content {
-    padding: 0px 16px;
+    padding: 16px 16px;
 }
 
 .modal-content .modal-lable {
