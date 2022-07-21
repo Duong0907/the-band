@@ -11,6 +11,9 @@ html {
 }
 
 /* Common classes */
+.hidden {
+    display: none !important;
+}
 .text-white {
     color: #fff !important;
 }
@@ -109,12 +112,39 @@ html {
 #nav .subnav li:hover a {
     background-color:#ccc;
 }
+#nav .subnav li:focus a {
+    background-color:#ccc;
+}
+
+
+/* Menu button */
+.menu-button {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 46.5px;
+    padding: 13.25px 21px;
+}
+
+.menu-icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+.onclick-menu-button {
+    background-color: #ccc;
+}
+
+.onclick-menu-icon {
+    color: #000;
+}
 
 /* Search button */
 .search-button {
     float: right;
-    height: 46.4px;
-    padding: 0px 21px;
+    height: 46.5px;
+    padding: 0 21px;
 }
 
 #header .search-icon {
@@ -387,9 +417,6 @@ html {
 
 
 /* Contact */
-.contact-control {
-    width: 100%;
-}
 
 .contact-info p {
     padding: 8px;
@@ -404,6 +431,7 @@ html {
     padding: 8px;
     margin: 8px;
     width:  100%;
+    height: 40px;
     border: 1px solid #ccc;
 }
 
@@ -475,17 +503,3 @@ html {
 
 
 
-/* Mobile Responsive */
-/* @media (max-width: 740px) {
-    .text-content {
-        margin: 0px !important;
-    }
-    #nav > li {
-        display: block;
-        background-color: #000;
-    }
-
-    .search-button {
-        display: none;
-    }
-} */

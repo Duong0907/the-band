@@ -1,0 +1,60 @@
+/* Mobile Responsive */
+@media (max-width: 740px) {
+    #slider .text-content {
+        display: none;
+    }
+    /* .text-content {
+        margin: 0px !important;
+    } */
+    #nav {
+        width: 100%;
+    }
+
+    #nav > li:first-child {
+        margin-right: 62px;
+    }
+
+    #nav > li {
+        display: block;
+        background-color: #000;
+    }
+    
+    .search-button {
+        display: none;
+    }   
+
+    .menu-button {
+        display: inline-block;
+    }
+
+    #band .member-item {
+        width: 100%;
+    }
+    #content .member-image {
+        margin-bottom: 16px;
+    }
+
+    #tour .ticket-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #contact .contact-info,
+    #contact .contact-form {
+        width: 100%;
+    }
+    #contact .contact-info{
+        margin-bottom: 16px;
+    }
+    #contact .contact-form .name-input,
+    #contact .contact-form .email-input {
+        width: 100%;
+        padding: 0;
+    }
+    #contact .contact-form input {
+        margin: 0;
+    }
+    #contact .contact-form .massage-input {
+        padding: 0;
+        margin: 8px 0;
+    }
