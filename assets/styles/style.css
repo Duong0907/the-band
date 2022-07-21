@@ -23,8 +23,8 @@ html {
 }
 
 .row {
-    padding: 32px 8px;
-    margin: 0px -16px;
+    padding: 32px 0px;
+    margin: 0px -8px;
     display: inline-block;
 }
 
@@ -159,7 +159,7 @@ html {
 }
 
 #slider {
-    background: url("../image/Sliders/slider1.jpg") top center / cover no-repeat;
+    background: url("../images/sliders/slider1.jpg") top center / cover no-repeat;
     margin-top: 46.5px;
     padding-top: 50%;
     position: relative;
@@ -275,6 +275,7 @@ html {
 }
 
 .row .col .ticket-text {
+    width: 100%;
     background-color: #fff;
     padding: 0 16px;
     display: inline-block;
@@ -452,6 +453,7 @@ html {
     color: #fff;
     border: none;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 .contact-form .send-button:hover {
@@ -500,6 +502,3 @@ html {
 .footer-copyright a {
     color: rgba(0, 0, 0, 0.6);
 }
-
-
-
