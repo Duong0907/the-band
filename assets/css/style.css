@@ -159,7 +159,7 @@ html {
 }
 
 #slider {
-    background: url("/assets/image/Sliders/slider1.jpg") top center / cover no-repeat;
+    background: url("../image/Sliders/slider1.jpg") top center / cover no-repeat;
     margin-top: 46.5px;
     padding-top: 50%;
     position: relative;
