@@ -264,11 +264,11 @@
                 menuIcon.classList.remove('onclick-menu-icon');
             }
 
-            // for (var item of menuItems) {
-            //     if (this.nextElementSibling) {
-            //         addEventListener('click', toggleSubnavBar);
-            //     }        
-            // }
+            for (var item of menuItems) {
+                if (this.nextElementSibling) {
+                    addEventListener('click', toggleSubnavBar);
+                }        
+            }
 
             if (getComputedStyle(menuBtn).display !== 'none') {
                 // Toggle navbar 
