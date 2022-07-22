@@ -1,5 +1,5 @@
 /* Mobile Responsive */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .mobile-full-width {
         width: 100% !important;
     }
@@ -55,14 +55,14 @@
 }
 
 /* Tablet Responsive */
-@media (min-width: 741px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .modal-container {
         width: 80%;
     }
 }
 
 /* Tablet and mobile */
-@media (max-width: 1023PX) {
+@media (max-width: 63.9375em) {
     .footer-brand a {
         width: 40px;
     }
